@@ -10,14 +10,7 @@
     src: local("Monotype Corsiva"), /* проверяем наличие шрифта в ОС пользователя */
          url(fonts/Monotype Corsiva.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
   }
-  
-@media(max-width: 800px;){
-	.rectangle img{
-		float: none;
-		width: 400px;
-		height: auto;
-	}
-}  
+
 body{
 	background-color: #f1f3f6;
 }
@@ -245,6 +238,27 @@ input[type="submit"]{
 	text-align: center;
 	background: #5d963f;
 }
+
+@media screen and (max-width: 800px;)
+{
+	.rectangle img{	
+		display: inline-block;
+		float: none;
+		width: 300px;
+		height: auto;
+		margin: 0 10px 10px 0; 
+	}
+	.rectangle p, h2{
+		display: inline-block;
+	}
+	.rectangle iframe{
+		float: none;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+}  
+
 /*Футер*/
 
 html, footer, div, ul, li, a, p, main, body {
