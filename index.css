@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Ledger');
+@font-face {
+    font-family: Arial Black; /* имя шрифта для CSS правил */
+    src: local("Arial Black"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/Arial Black.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+@font-face {
+    font-family: Monotype Corsiva; /* имя шрифта для CSS правил */
+    src: local("Monotype Corsiva"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/Monotype Corsiva.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+  
 body{
 	background-color: #f1f3f6;
 }
