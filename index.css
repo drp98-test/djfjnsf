@@ -11,6 +11,13 @@
          url(fonts/Monotype Corsiva.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
   }
   
+@media(max-width: 800px;){
+	.rectangle img{
+		float: none;
+		width: 400px;
+		height: auto;
+	}
+}  
 body{
 	background-color: #f1f3f6;
 }
